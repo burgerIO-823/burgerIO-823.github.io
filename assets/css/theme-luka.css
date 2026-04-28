@@ -19,53 +19,53 @@ body.theme-luka *::after {
 }
 
 :root {
-  --luka-bg: #faf9f7;
-  --luka-text: #3d3929;
-  --luka-accent: #c2714f;
-  --luka-secondary: #8c8577;
-  --luka-border: rgba(194, 113, 79, 0.2);
-  --luka-shadow: rgba(194, 113, 79, 0.15);
+  --luka-bg: #f0f2f8;
+  --luka-text: #2a3040;
+  --luka-accent: #0A2D88;
+  --luka-secondary: #6b7391;
+  --luka-border: rgba(10, 45, 136, 0.15);
+  --luka-shadow: rgba(10, 45, 136, 0.1);
   --luka-social-bg: #ffffff;
-  --luka-social-text: #8b7355;
-  --luka-footer-border: rgba(194, 113, 79, 0.15);
+  --luka-social-text: #4a5580;
+  --luka-footer-border: rgba(10, 45, 136, 0.12);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --luka-bg: #1a1917;
-    --luka-text: #d1cec7;
-    --luka-accent: #e28a67;
-    --luka-secondary: #9b9488;
-    --luka-border: rgba(226, 138, 103, 0.2);
+    --luka-bg: #161922;
+    --luka-text: #cdd1db;
+    --luka-accent: #7b9dff;
+    --luka-secondary: #8a8fa3;
+    --luka-border: rgba(123, 157, 255, 0.2);
     --luka-shadow: rgba(0, 0, 0, 0.3);
-    --luka-social-bg: #22211e;
-    --luka-social-text: #d1cec7;
-    --luka-footer-border: rgba(226, 138, 103, 0.15);
+    --luka-social-bg: #1e212c;
+    --luka-social-text: #cdd1db;
+    --luka-footer-border: rgba(123, 157, 255, 0.12);
   }
 }
 
 [data-theme="dark"] {
-  --luka-bg: #1a1917;
-  --luka-text: #d1cec7;
-  --luka-accent: #e28a67;
-  --luka-secondary: #9b9488;
-  --luka-border: rgba(226, 138, 103, 0.2);
+  --luka-bg: #161922;
+  --luka-text: #cdd1db;
+  --luka-accent: #7b9dff;
+  --luka-secondary: #8a8fa3;
+  --luka-border: rgba(123, 157, 255, 0.2);
   --luka-shadow: rgba(0, 0, 0, 0.3);
-  --luka-social-bg: #22211e;
-  --luka-social-text: #d1cec7;
-  --luka-footer-border: rgba(226, 138, 103, 0.15);
+  --luka-social-bg: #1e212c;
+  --luka-social-text: #cdd1db;
+  --luka-footer-border: rgba(123, 157, 255, 0.12);
 }
 
 [data-theme="light"] {
-  --luka-bg: #faf9f7;
-  --luka-text: #3d3929;
-  --luka-accent: #c2714f;
-  --luka-secondary: #8c8577;
-  --luka-border: rgba(194, 113, 79, 0.2);
-  --luka-shadow: rgba(194, 113, 79, 0.15);
+  --luka-bg: #f0f2f8;
+  --luka-text: #2a3040;
+  --luka-accent: #0A2D88;
+  --luka-secondary: #6b7391;
+  --luka-border: rgba(10, 45, 136, 0.15);
+  --luka-shadow: rgba(10, 45, 136, 0.1);
   --luka-social-bg: #ffffff;
-  --luka-social-text: #8b7355;
-  --luka-footer-border: rgba(194, 113, 79, 0.15);
+  --luka-social-text: #4a5580;
+  --luka-footer-border: rgba(10, 45, 136, 0.12);
 }
 
 body.theme-luka {
@@ -326,6 +326,7 @@ body.theme-luka .institution-logo {
   width: 52px;
   height: 52px;
   flex-shrink: 0;
+  object-fit: contain;
 }
 
 body.theme-luka .experience-content {
