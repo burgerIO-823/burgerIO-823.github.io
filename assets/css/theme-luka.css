@@ -273,6 +273,10 @@ body.theme-luka .section-title {
   font-weight: 600;
 }
 
+body.theme-luka #about .section-title {
+  font-size: 22px;
+}
+
 body.theme-luka .section-body p {
   margin: 0 0 14px;
 }
